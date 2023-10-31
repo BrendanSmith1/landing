@@ -1,0 +1,36 @@
+.banner {
+  color: white;
+  background-size: cover;
+  background-position: center;
+  height: 500px;
+  display: flex;
+  align-items: center;
+}
+
+.banner img {
+  height: 200px;
+}
+
+.banner h1 {
+  font-weight: bold;
+}
+
+.banner p {
+  font-weight: lighter;
+}
+
+.banner a {
+  background-color: rgba(0, 255, 0, 0.8);
+  color: white;
+  padding: 15px 25px;
+  border-radius: 50px;
+  margin-top: 10px;
+  font-weight: bold;
+  display: inline-block;
+}
+
+.banner a:hover {
+  background-color: darkgreen;
+  opacity: 1;
+  transition: ease 0.3s;
+}
